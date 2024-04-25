@@ -1,0 +1,91 @@
+/* CSS Reset */
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url("../img/bg-img.jpg");
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+/* CSS for logo */
+.left{
+    position: absolute;
+    left: 70px;
+    top: 16px;
+    display: inline-block;
+}
+.left img{
+    width: 70px;
+    filter: invert(100%);
+    margin-left: 20px;;
+}
+.left div{
+    text-align: center;
+}
+/* CSS for navbar */
+.mid{
+    display: block;
+    width: 35%;
+    margin: 22px auto;
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    padding: 4px 20px;
+}
+.navbar li a:hover{
+    text-decoration: none;
+    color: grey;
+    padding: 4px 20px;
+}
+/* CSS for buttons */
+.right{
+    position: absolute;
+    right: 70px;
+    top: 35px;
+    display: inline-block;
+}
+.btn {
+    margin: 0px 10px;
+    background-color: black;
+    color: white;
+    border: 2px solid grey;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 3px 13px;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+}
+.btn:hover {
+    background-color: rgb(31, 28, 27);
+}
+/* CSS for form */
+.container {
+    margin: 90px 90px;
+    width: 33%;
+    padding: 10px 10px;
+    text-align: center;
+    float: right;
+}
+.container h1{
+    text-transform: uppercase;
+}
+.form-group input{
+    display: block;
+    text-align: center;
+    margin: 15px auto;
+    padding: 5px 5px;
+    width: 50%;
+    border-radius: 5px;
+}
+.container .btn{
+    margin: 15px auto;
+    width: 53%;
+}
